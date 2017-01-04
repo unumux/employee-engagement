@@ -1,3 +1,8 @@
+@mixin base() {
+
+}
+
 .faq {
+@include base;
     
 }

@@ -1,3 +1,9 @@
+@mixin base() {
+
+}
+
 .copyright {
+ @include base;
+
     
 }

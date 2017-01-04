@@ -1,3 +1,7 @@
+@mixin base() {
+
+}
+
 .footer-nav {
-    
+ @include base;
 }
