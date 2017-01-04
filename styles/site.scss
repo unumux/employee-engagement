@@ -1,8 +1,16 @@
-* {
-    box-sizing: border-box;
-}
+@import 'mixins';
+@import 'base';
+@import 'call-to-action/call-to-action';
+@import 'content/content';
+@import 'copyright/copyright';
+@import 'fact/fact';
+@import 'faq/faq';
+@import 'faqs/faqs';
+@import 'footer-nav/footer-nav';
+@import 'logo-link/logo-link';
+@import 'page-footer/page-footer';
+@import 'page-header/page-header';
+@import 'quiz/quiz';
+@import 'testimonial/testimonial';
 
-body {
-    background: #dedede;
-    color: #111;
-}
+
