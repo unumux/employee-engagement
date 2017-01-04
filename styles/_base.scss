@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+:first-child {
+    margin-top: 0;
+}
+
+:last-child {
+    margin-bottom: 0;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
