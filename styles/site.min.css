@@ -1,2 +1,2 @@
-*{box-sizing:border-box}body{background:#dedede;color:#111}
+html{box-sizing:border-box;font-size:62.5%}*,:after,:before{box-sizing:inherit}:first-child{margin-top:0}:last-child{margin-bottom:0}body{font-family:source sans pro,Helvetica,Arial,sans-serif;font-size:1.6rem;font-weight:300}
 /*# sourceMappingURL=site.min.css.map */
