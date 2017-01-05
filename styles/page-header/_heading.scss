@@ -3,10 +3,18 @@
     background-image: url('../images/because you diy.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 50vh;
 }
 
 &__heading {
     @include base;
+
+    h1 {
+        font-size: 6.5rem;
+        position: absolute;
+        top: 30rem;
+    }
 
 }
 

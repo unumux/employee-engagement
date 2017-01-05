@@ -1,8 +1,9 @@
 @mixin base() {
-    background-color: #80868c;
+    background-image: url('http://fillmurray.com/200/200');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
     color: #fff;
-    display: flex;
-    flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 4rem;
     text-align: center;
@@ -12,8 +13,10 @@
     @include base;
 
     &__content {
-        flex: 1 1 0;
-        padding: 4rem 2rem 0rem 2rem;
+        background-color: #80868c;
+        width: 60%;
+        height: auto;
+        padding: 4rem;
     }
 
     &__heading {
