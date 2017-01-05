@@ -7,4 +7,6 @@
 .page-footer {
  @include base;
 
+ @import 'content';
+
 }

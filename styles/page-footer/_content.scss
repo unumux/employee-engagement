@@ -1,0 +1,7 @@
+@mixin base() {
+    word-wrap: break-word;
+}
+
+&__content {
+    @include base;
+}

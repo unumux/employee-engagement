@@ -1,0 +1,10 @@
+@mixin base() {
+    margin-bottom: 2rem;
+
+    
+}
+
+&__answer {
+    @include base;
+
+}

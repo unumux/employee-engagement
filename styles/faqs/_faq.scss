@@ -1,0 +1,11 @@
+@mixin base() {
+    border-bottom: 1px solid black;
+    // margin-bottom: 2rem;
+    list-style-type: none;
+}
+
+&__faq {
+    @include base;
+    
+    
+}

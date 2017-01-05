@@ -1,14 +1,14 @@
 @mixin base() {
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    // margin-top: 4rem;
+    // margin-bottom: 6rem;
 }
 
 .faqs {
     @include base;
 
-    &__heading {
-        color: $ocean;
-        font-size: 3rem;
-        text-align: center;
-    }
+    @import 'heading';
+    @import 'question';
+    @import 'answer';
+    @import 'faq';
+    @import 'list';
 }
