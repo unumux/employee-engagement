@@ -1,0 +1,15 @@
+@mixin base() {
+    color: #fff;
+    background-image: url('../images/because you diy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+&__heading {
+    @include base;
+
+}
+
+.yellow {
+    color: $yellow;
+}

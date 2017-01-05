@@ -1,0 +1,11 @@
+@mixin base() {
+    background-color: #80868c;
+    color: #fff;
+    margin-left: -2rem;
+}
+
+&__discover {
+    @include base;
+
+    
+}

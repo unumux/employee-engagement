@@ -1,8 +1,12 @@
 @mixin base() {
-
+    
 }
 
 .content {
- @include base;
+    @include base;
+
+    h1 {
+        color: $ocean;
+    }
 
 }

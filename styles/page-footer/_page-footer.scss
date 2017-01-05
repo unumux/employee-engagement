@@ -1,7 +1,10 @@
 @mixin base() {
-
+    background-color: #767676;
+    color: #fff;
+    padding: 3rem;
 }
 
 .page-footer {
  @include base;
+
 }

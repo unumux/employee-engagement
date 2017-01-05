@@ -1,7 +1,9 @@
 @mixin base() {
-
+    background-color: #fff;
 }
 
 .page-header {
     @include base;
+
+    @import 'heading';
 }

@@ -1,8 +1,27 @@
 @mixin base() {
-
-
+    background-color: #80868c;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 4rem;
+    text-align: center;
 }
 
 .call-to-action {
     @include base;
+
+    &__content {
+        flex: 1 1 0;
+        padding: 4rem 2rem 0rem 2rem;
+    }
+
+    &__heading {
+        font-size: 3rem;
+    }
+
+    &__descriptor {
+        font-size: 2rem;
+    }
+
 }

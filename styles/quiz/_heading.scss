@@ -1,0 +1,17 @@
+@mixin base() {
+    background-color: $ocean;
+    padding: 1rem 2rem 1rem 3rem;
+    transform: translateX(-2rem);
+    width: 85%;
+}
+
+&__heading {
+    @include base;
+
+    border-bottom: 5px solid $yellow;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+
+}
+

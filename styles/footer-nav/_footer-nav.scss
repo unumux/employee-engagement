@@ -1,7 +1,20 @@
 @mixin base() {
+    color: white;
+    text-decoration: none;
 
 }
 
 .footer-nav {
- @include base;
+    @include base;
+
+    &__item {
+        font-weight: 600;
+        list-style-type: none;
+        text-transform: uppercase;
+        
+    }
+
+    &__link {
+        color: white;
+    }
 }

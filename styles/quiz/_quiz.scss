@@ -1,7 +1,12 @@
 @mixin base() {
-
+    padding: 2rem;
 }
 
 .quiz {
     @include base;
+
+    @import 'description';
+    @import 'discover';
+    @import 'heading';
 }
+

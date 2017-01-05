@@ -1,0 +1,12 @@
+@mixin base() {
+    font-size: 3rem;
+    font-weight: 600;
+    // text-align: center;
+    margin: 0 auto;
+    padding: 5rem;
+
+}
+
+&__content {
+    @include base;
+}

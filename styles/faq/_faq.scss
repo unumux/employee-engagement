@@ -1,8 +1,20 @@
 @mixin base() {
-
 }
 
 .faq {
-@include base;
+    @include base;
+
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+
+    &__question {
+        color: $ocean;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    &__answer {
+        margin-bottom: 2rem;
+    }
     
 }
