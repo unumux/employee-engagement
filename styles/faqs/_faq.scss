@@ -1,7 +1,7 @@
 @mixin base() {
     border-bottom: 1px solid black;
-    // margin-bottom: 2rem;
     list-style-type: none;
+    padding: 2rem;
 }
 
 &__faq {
