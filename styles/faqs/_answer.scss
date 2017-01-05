@@ -1,12 +1,15 @@
 @mixin base() {
-    margin-top: 2rem;
 
 }
 
 &__answer {
     @include base;
 
+    margin-top: 2rem;
+
     &--hidden {
+        @include base;
+
         height: 0;
         overflow: hidden;
     }
