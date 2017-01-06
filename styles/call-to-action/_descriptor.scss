@@ -1,0 +1,9 @@
+@mixin base() {
+
+}
+
+&__descriptor {
+    @include base;
+
+    font-size: 2rem;    
+}

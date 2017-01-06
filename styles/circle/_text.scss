@@ -1,0 +1,24 @@
+@mixin base() {
+
+}
+
+&__text {
+    @include base;
+
+    &--small {
+        font-size: 5.5rem;
+        font-weight: 600;
+    }
+
+    &--medium {
+        border-bottom: 7px solid $yellow;
+        font-size: 6rem;
+        font-weight: 600;
+    }
+
+    &--large {
+        font-size: 9rem;
+        font-weight: 600;
+    }
+
+}

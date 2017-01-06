@@ -1,0 +1,9 @@
+@mixin base() {
+
+}
+
+&__heading {
+    @include base;
+    
+    font-size: 3rem;
+}

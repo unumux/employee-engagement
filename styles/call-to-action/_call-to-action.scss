@@ -1,32 +1,22 @@
 @mixin base() {
-    background-image: url('http://fillmurray.com/200/200');
+    background-image: url('../images/Because you boat.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 30%;
+    background-position: right 45px bottom 25px;
     color: #fff;
     margin: 0 auto;
     margin-top: 4rem;
     text-align: center;
+    // width: auto;
+    // height: auto;
+    // overflow: hidden;
 }
 
 .call-to-action {
     @include base;
 
-    &__content {
-        background-color: #80868c;
-        width: 60%;
-        height: auto;
-        padding: 4rem;
-    }
-
-    &__heading {
-        font-size: 3rem;
-    }
-
-    &__descriptor {
-        font-size: 2rem;
-    }
-
-    
+    @import 'content';
+    @import 'descriptor';
+    @import 'heading';
 
 }

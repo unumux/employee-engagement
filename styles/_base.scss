@@ -23,26 +23,27 @@ body {
     font-weight: 300;
     margin: 0;
 
-    /* Do not nest these */
-    h1 {
-        font-size: 3.4rem;
-    }
-
-    p {
-        /*
-            Try not to use arbitrary sizes.
-            Choose a base size. For instance, 16 (1.6rem).
-            Try to use variations of base for sizes. i.e. 0, 16, 32, 48
-            If that does not work, use multiples of 8: 0, 8, 16, 24, 32, 40, 48
-            Still too far apart? Try 4: 0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48
-            Then 2. If you get down to 1, that is probably not good.
-            First choice:           0,              16,             32,             48
-            Second choice:                  8,              24,             40
-            Third choice:               4,      12,     20,     28,     36,     44
-            Fourth choice:            2,  6,  10, 14, 18, 22, 26, 30, 34, 38, 42, 46
-            LAST RESORT:                            odd numbers
-        */
-
-        font-size: 1.9rem;
-    }
 }
+
+p {
+    /*
+        Try not to use arbitrary sizes.
+        Choose a base size. For instance, 16 (1.6rem).
+        Try to use variations of base for sizes. i.e. 0, 16, 32, 48
+        If that does not work, use multiples of 8: 0, 8, 16, 24, 32, 40, 48
+        Still too far apart? Try 4: 0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48
+        Then 2. If you get down to 1, that is probably not good.
+        First choice:           0,              16,             32,             48
+        Second choice:                  8,              24,             40
+        Third choice:               4,      12,     20,     28,     36,     44
+        Fourth choice:            2,  6,  10, 14, 18, 22, 26, 30, 34, 38, 42, 46
+        LAST RESORT:                            odd numbers
+    */
+
+    font-size: 1.9rem;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
