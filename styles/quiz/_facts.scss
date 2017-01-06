@@ -1,0 +1,9 @@
+@mixin base() {
+
+}
+
+&__facts {
+    @include base;
+
+    margin-top: 3rem;
+}

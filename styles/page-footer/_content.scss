@@ -1,5 +1,6 @@
 @mixin base() {
     word-wrap: break-word;
+    margin-bottom: 8rem;
 }
 
 &__content {

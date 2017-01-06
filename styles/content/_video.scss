@@ -1,0 +1,11 @@
+@mixin base() {
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+&__video{
+    @include base;
+
+    
+}

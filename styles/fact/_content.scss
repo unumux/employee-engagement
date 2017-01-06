@@ -1,8 +1,9 @@
 @mixin base() {
-    display: flex;
     flex: 1 1 0;
+    // margin-left: 2rem;
 }
 
 &__content {
     @include base;
+
 }
