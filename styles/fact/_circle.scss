@@ -1,0 +1,30 @@
+@mixin base() {
+
+    background-color: $ocean;
+    border-radius: 50%;
+    color: #fff;
+    height: 175px;
+    width: 175px;
+    position: relative;
+    text-align: center;
+
+}
+
+&__circle {
+    @include base;
+
+    &-small {
+        font-size: 4.75rem;
+        font-weight: 600;
+        
+        position: absolute;
+        top: 5rem;
+        bottom: 0;
+        left: 1.75rem;
+        right: 5rem;
+    }
+}
+
+.yellow {
+    color: $yellow;
+}
