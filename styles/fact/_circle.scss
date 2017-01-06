@@ -7,21 +7,35 @@
     width: 175px;
     position: relative;
     text-align: center;
-
+    
 }
 
 &__circle {
     @include base;
 
     &-small {
-        font-size: 4.75rem;
+        font-size: 5.5rem;
         font-weight: 600;
-        
         position: absolute;
         top: 5rem;
-        bottom: 0;
-        left: 1.75rem;
-        right: 5rem;
+        left: 2.5rem;
+    }
+
+    &-medium {
+        border-bottom: 7px solid $yellow;
+        font-size: 6rem;
+        font-weight: 600;
+        top: 4rem;
+        left: 3.5rem;
+        position: absolute;
+    }
+
+    &-large {
+        font-size: 9rem;
+        font-weight: 600;
+        position: absolute;
+        top: 2.5rem;
+        left: 4rem;
     }
 }
 

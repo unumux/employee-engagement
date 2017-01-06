@@ -1,10 +1,12 @@
 @mixin base() {
-
+    display: flex;
+    margin-bottom: 5rem;
+    text-align: center;
 }
 
 .fact {
  @include base;
 
  @import 'circle';
-
+ @import 'content';
 }
