@@ -9,14 +9,21 @@
 
 &__content {
     @include base;
+    position: relative;
 
     &:before {
         content: open-quote;
-        font-size: 6rem;
+        font-size: 10rem;
+        position: absolute;
+        transform: translate3d(-6rem, -4rem, 0)
+
+        
     }
 
     &:after {
         content: close-quote;
-        font-size: 6rem;
+        font-size: 10rem;
+        position: absolute;
+        transform: translate3d(1rem, 0rem, 0)
     }
 }

@@ -1,19 +1,28 @@
 @mixin base() {
-    background-image: url('../images/Because you boat.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right 45px bottom 25px;
     color: #fff;
     margin: 0 auto;
     margin-top: 4rem;
-    text-align: center;
-    // width: auto;
-    // height: auto;
-    // overflow: hidden;
+    position: relative;
 }
 
 .call-to-action {
     @include base;
+    
+
+    &::after {
+        content: '';
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 60%;
+        background-color: blue;
+        position: absolute;
+        background-image: url('../images/Because you boat.jpg');
+        background-size: cover;
+        background-position: 30% 100%;
+        background-repeat: no-repeat;
+        
+    }
 
     @import 'content';
     @import 'descriptor';
