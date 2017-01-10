@@ -1,19 +1,26 @@
 @mixin base() {
     color: #fff;
-    background-image: url('../images/because you diy.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
 
-    @media all and (min-width: 768px) {
-        height: 35vh;
-        background-position: 20% 75%;
-    }
 }
 
 &__heading {
     @include base;
+
+    h1 {
+        font-size: 6.5rem;
+        line-height: 6rem;
+        // padding: 3rem 0 1rem 2rem;
+
+        @media all and (min-width: 768px) {
+            font-size: 6.2rem;
+            padding: 18rem 0 1rem 5rem;
+            max-width: 35%;
+        }
+
+        @media all and (min-width: 1320px) {
+            max-width: 30%;
+        }
+    }
 
 }
 
