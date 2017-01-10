@@ -2,17 +2,12 @@
 // Include scripts using Browserify by doing:
 var $ = require("jquery");
 
+$(".faqs__faq").attr("data-collapsed", "true").find(".faqs__answer").hide();
 
-    $(document).on('click','.faqs__faq--closed', function(e) {
-        $(this).removeClass("faqs__faq--closed");
-        $(this).addClass("faqs__faq");
-    });
-    
-    $(document).on('click', '.faqs__faq', function() {
-        $(this).removeClass("faqs__faq");
-        $(this).addClass("faqs__faq--closed");
-    });
+$(".faqs").on("click", "[data-collapsed='true'] .faqs__question", function () {
+    $(this).parent().attr("data-collapsed", "false").find(".faqs__answer").slideDown();
+});
 
-
-
-
+$(".faqs").on("click", "[data-collapsed='false'] .faqs__question", function () {
+    $(this).parent().attr("data-collapsed", "true").find(".faqs__answer").slideUp();
+});

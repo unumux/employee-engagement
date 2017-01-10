@@ -1,16 +1,7 @@
 @mixin base() {
-    margin-top: 2rem;
     word-wrap: break-word;
-
 }
 
 &__answer {
     @include base;
-
-    .faqs__faq--closed & {
-        height: 0;
-        margin-top: 0;
-        overflow: hidden;
-    }
-
 }
