@@ -1,8 +1,19 @@
 @mixin base() {
-    font-size: 2rem;
+    background-color: #80868c;
+    // font-size: 2rem;
     line-height: 3rem;
-    margin-top: -2rem;
-    padding: 0 2rem 1rem 2rem;
+    margin-top: -12rem;
+    padding: 8rem 2rem 1rem 2rem;
+    height: 21rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 1.6rem;
+        margin-top: -13rem;
+        padding: 4rem 7rem 1rem 7rem;
+        // padding-left: 7rem;
+        // padding-right: 7rem;
+        height: 15rem;
+    }
 
 }
 

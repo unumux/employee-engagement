@@ -8,6 +8,11 @@
     display: flex; 
     justify-content: center;
     align-items: center;
+
+    @media all and (min-width:768px) {
+        height: 100px; 
+        width: 100px;
+    }
 }
 
 .circle {

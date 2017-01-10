@@ -5,6 +5,10 @@
     margin: 0 auto;
     padding: 5rem;
 
+    @media all and (min-width: 768px) {
+        font-size: 3.1rem;
+    }
+
 }
 
 &__content {

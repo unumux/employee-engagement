@@ -1,0 +1,10 @@
+@mixin base() {
+
+}
+
+&__descriptor{
+    @include base;
+
+    margin-top: -2rem;
+    padding-bottom: 3rem;
+}

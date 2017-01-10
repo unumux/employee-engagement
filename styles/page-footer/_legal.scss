@@ -1,8 +1,7 @@
 @mixin base() {
-    padding: 1rem;
+    margin-bottom: 3rem;
 }
 
-&__list {
+&__legal{
     @include base;
-
 }

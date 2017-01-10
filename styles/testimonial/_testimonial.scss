@@ -2,23 +2,18 @@
     background-color: $ocean;
     border-bottom: 20px solid $yellow;
     color: #fff;
+    margin-bottom: 4rem;
     text-align: center;
+
+    @media all and (min-width: 768px) {
+        margin: 7rem 7rem 7rem 5rem;
+    }
 }
 
 .testimonial {
     @include base;
 
-    &__name {
-        font-weight: 600;
-        margin-top: -3rem;
-    }
-
-    &__descriptor {
-        margin-top: -2rem;
-        padding-bottom: 3rem;
-    
-    }
-
-
     @import 'content';
+    @import 'name';
+    @import 'descriptor';
 }

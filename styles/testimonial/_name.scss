@@ -1,0 +1,10 @@
+@mixin base() {
+
+}
+
+&__name {
+    @include base;
+    
+    font-weight: 600;
+    margin-top: -3rem;
+}

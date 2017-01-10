@@ -2,11 +2,16 @@
     background-color: #767676;
     color: #fff;
     padding: 2rem;
+
+    @media all and (min-width: 768px) {
+        padding: 2rem 5rem 3rem 5rem;
+    }
 }
 
 .page-footer {
  @include base;
 
  @import 'content';
+ @import 'legal';
 
 }

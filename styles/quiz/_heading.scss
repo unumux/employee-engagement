@@ -3,6 +3,13 @@
     padding: 1rem 2rem 1rem 3rem;
     transform: translateY(-2rem);
     width: 85%;
+
+    @media all and (min-width: 768px) {
+        width: 62%;
+        text-align: center;
+        transform: translateY(-7rem);
+        margin-left: -5rem;
+    }
 }
 
 &__heading {

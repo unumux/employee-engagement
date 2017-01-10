@@ -1,9 +1,14 @@
 @mixin base() {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
 
+    @media all and (min-width: 768px) {
+        font-size: 3.6rem;
+    }
 }
 
 &__heading {
     @include base;
     
-    font-size: 3rem;
 }

@@ -8,17 +8,31 @@
     &--small {
         font-size: 5.5rem;
         font-weight: 600;
+
+        @media all and (min-width: 768px) {
+            font-size: 3.6rem;
+        }
+
     }
 
     &--medium {
         border-bottom: 7px solid $yellow;
         font-size: 6rem;
         font-weight: 600;
+
+        @media all and (min-width: 768px) {
+            font-size: 4rem;
+            border-bottom: 5px solid $yellow;
+        }
     }
 
     &--large {
         font-size: 9rem;
         font-weight: 600;
+
+        @media all and (min-width: 768px) {
+            font-size: 6rem;
+        }
     }
 
 }

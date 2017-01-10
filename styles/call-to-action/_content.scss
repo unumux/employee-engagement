@@ -1,12 +1,11 @@
 @mixin base() {
-
+    background-color: #80868c;
+    width: 60%;
+    height: auto;
+    padding: 2rem;
 }
 
 &__content {
     @include base;
 
-    background-color: #80868c;
-    width: 60%;
-    height: auto;
-    padding: 4rem;
 }

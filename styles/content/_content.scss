@@ -1,5 +1,10 @@
 @mixin base() {
-    
+    padding: 2rem;
+
+    @media all and (min-width: 768px) {
+        display: flex;
+        padding: 5rem;
+    }
 }
 
 .content {
@@ -10,4 +15,5 @@
     }
 
     @import 'video';
+    @import 'container';
 }

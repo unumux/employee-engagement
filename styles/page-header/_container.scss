@@ -1,0 +1,22 @@
+@mixin base() {
+}
+
+&__container {
+    @include base;
+
+     h1 {
+        font-size: 6.5rem;
+        line-height: 6rem;
+        padding: 33rem 0 1rem 2rem;
+
+        @media all and (min-width: 768px) {
+            font-size: 6.2rem;
+            padding: 18rem 0 1rem 5rem;
+            max-width: 35%;
+        }
+
+        @media all and (min-width: 1320px) {
+            max-width: 30%;
+        }
+    }
+}

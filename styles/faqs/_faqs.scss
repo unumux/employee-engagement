@@ -1,5 +1,12 @@
 @mixin base() {
     padding: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+
+    @media all and (min-width: 768px) {
+        margin-left: 5rem;
+        max-width: 80vw;
+    }
 }
 
 .faqs {

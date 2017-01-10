@@ -1,11 +1,17 @@
 @mixin base() {
-    background-color: #80868c;
+    // background-color: #80868c;
     color: #fff;
-    margin-top: 6rem;
+    margin-top: 4rem;
+
+    @media all and (min-width: 768px) {
+        max-width: 60%;
+        margin-left: 5rem;
+        margin-top: 9rem;
+    }
 }
+
 
 &__discover {
     @include base;
-
     
 }

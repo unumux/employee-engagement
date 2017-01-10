@@ -1,9 +1,15 @@
 @mixin base() {
+    font-size: 2rem;
+    text-align: center;
 
+    @media all and (min-width: 768px) {
+        font-size: 1.6rem;
+        margin: 0;
+
+    }
 }
 
 &__descriptor {
     @include base;
-
-    font-size: 2rem;    
+        
 }

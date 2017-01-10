@@ -1,4 +1,9 @@
 @mixin base() {
+
+    @media all and (min-width: 768px) {
+        display: flex;
+        margin-bottom: 8rem;
+    }
 }
 
 .quiz {

@@ -41,9 +41,17 @@ p {
     */
 
     font-size: 1.9rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 1.6rem;
+    }
 }
 
 h1 {
     font-size: 3.4rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 3.6rem;
+    }
 }
 
