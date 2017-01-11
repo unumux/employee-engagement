@@ -2,11 +2,8 @@
     display: block;
     margin: 0 auto;
     width: 40%;
-
 }
 
-.logo-link {
+&__image {
     @include base;
-
-    @import 'image';
 }
