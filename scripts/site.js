@@ -17,23 +17,23 @@ $('.carousel').slick({
 });
 
 // Carousel
-var currentIndex = 0,
-  items = $('.page-header__container li'),
-  itemAmt = items.length;
+// var currentIndex = 0,
+//   items = $('.page-header__container li'),
+//   itemAmt = items.length;
 
-function cycleItems() {
-  var item = $('.page-header__container li').eq(currentIndex);
-  items.hide();
-  item.css('display','inline-block');
-}
+// function cycleItems() {
+//   var item = $('.page-header__container li').eq(currentIndex);
+//   items.hide();
+//   item.css('display','inline-block');
+// }
 
-var autoSlide = setInterval(function() {
-  currentIndex += 1;
-  if (currentIndex > itemAmt - 1) {
-    currentIndex = 0;
-  }
-  cycleItems();
-}, 3000);
+// var autoSlide = setInterval(function() {
+//   currentIndex += 1;
+//   if (currentIndex > itemAmt - 1) {
+//     currentIndex = 0;
+//   }
+//   cycleItems();
+// }, 3000);
 
 //My shot at trying to make the dots on the header clickable
 // $(document).ready(function () {
