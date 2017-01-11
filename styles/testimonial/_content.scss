@@ -12,6 +12,7 @@
 
 &__content {
     @include base;
+    
     position: relative;
 
     &:before {
