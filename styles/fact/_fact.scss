@@ -1,11 +1,9 @@
 @mixin base() {
     display: flex;
     margin-bottom: 5rem;
-    text-align: center;
+    align-items: center;
 
     @media all and (min-width: 768px) {
-        align-items: center;
-        flex-direction: column;
         justify-content: center;
         margin-bottom: 2rem;
     }
