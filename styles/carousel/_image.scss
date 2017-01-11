@@ -1,7 +1,7 @@
 @mixin base() {
-
+    width: 100vw;
 }
 
-&__heading {
+&__image {
     @include base;
 }

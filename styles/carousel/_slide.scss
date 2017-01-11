@@ -1,7 +1,8 @@
 @mixin base() {
-
+    position: relative;
 }
 
-&__heading {
+&__slide {
     @include base;
+
 }

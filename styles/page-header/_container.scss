@@ -1,53 +1,7 @@
 @mixin base() {
-    background-color: #fff;
-    display: inline-block;
-    margin: 0 auto;
-    position: relative;
+
 }
 
 &__container {
-    @include base;
-
-    h1 {
-        font-size: 6.5rem;
-        line-height: 6rem;
-        margin: -14rem 2rem 2rem 2rem;
-        max-width: 100%;
-        text-align: left;
-
-        @media all and (min-width: 768px) {
-            font-size: 6.2rem;
-            margin: -32rem 2rem 0rem 2rem;
-            max-width: 55%;
-        }
-
-        @media all and (min-width: 1320px) {
-            max-width: 30%;
-        }
-    }
-
-    div {
-        background-color: white;
-        display: inline-block;
-        display: none;
-        width: 100%;
-    }
-    
-    img {
-        height: auto;
-        width: 100%;
-    }
-
-    button {
-        position: absolute;
-    }
-
-    .next {
-    right: 5px;
-    }
-
-    .prev {
-    left: 5px;
-    }
-     
+    @include base;     
 }

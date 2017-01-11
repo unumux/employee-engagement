@@ -1,0 +1,11 @@
+@mixin base() {
+    position: relative;
+}
+
+.carousel {
+    @include base;
+
+    @import "slide";
+    @import "heading";
+    @import "image";
+}
