@@ -1,13 +1,13 @@
 @mixin base() {
+    align-items: center;
     background-color: $ocean;
     border-radius: 50%;
     color: #fff;
-    height: 175px;
-    width: 175px;
-    text-align: center; 
     display: flex; 
+    height: 175px;
     justify-content: center;
-    align-items: center;
+    text-align: center; 
+    width: 175px;
 
     @media all and (min-width:768px) {
         height: 100px; 

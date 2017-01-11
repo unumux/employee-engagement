@@ -1,6 +1,6 @@
 @mixin base() {
-    display: inline-block;
     background-color: #fff;
+    display: inline-block;
     margin: 0 auto;
     position: relative;
 }
@@ -28,14 +28,14 @@
 
     div {
         background-color: white;
-        width: 100%;
         display: inline-block;
         display: none;
+        width: 100%;
     }
     
     img {
-        width: 100%;
         height: auto;
+        width: 100%;
     }
 
     button {

@@ -1,8 +1,8 @@
 @mixin base() {
     background-color: #80868c;
-    width: 60%;
     height: auto;
     padding: 2rem;
+    width: 60%;
 
     @media all and (min-width: 768px) {
         padding: 3rem;
