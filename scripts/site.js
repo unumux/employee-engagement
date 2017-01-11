@@ -15,38 +15,33 @@ $(".faqs").on("click", "[data-collapsed='false'] .faqs__question", function () {
 
 
 // Carousel
-// var currentIndex = 0,
-//   items = $('.page-header__container div'),
-//   itemAmt = items.length;
+var currentIndex = 0,
+  items = $('.page-header__container li'),
+  itemAmt = items.length;
 
-// function cycleItems() {
-//   var item = $('.page-header__container div').eq(currentIndex);
-//   items.hide();
-//   item.css('display','inline-block');
-// }
+function cycleItems() {
+  var item = $('.page-header__container li').eq(currentIndex);
+  items.hide();
+  item.css('display','inline-block');
+}
 
-// var autoSlide = setInterval(function() {
-//   currentIndex += 1;
-//   if (currentIndex > itemAmt - 1) {
-//     currentIndex = 0;
-//   }
-//   cycleItems();
-// }, 10000);
+var autoSlide = setInterval(function() {
+  currentIndex += 1;
+  if (currentIndex > itemAmt - 1) {
+    currentIndex = 0;
+  }
+  cycleItems();
+}, 3000);
 
-// $('.next').click(function() {
-//   clearInterval(autoSlide);
-//   currentIndex += 1;
-//   if (currentIndex > itemAmt - 1) {
-//     currentIndex = 0;
-//   }
-//   cycleItems();
-// });
+//My shot at trying to make the dots on the header clickable
+// $(document).ready(function () {
+//     $('ol li').bind('click', function(){
+//         var index = $(this).index() + 1;
 
-// $('.prev').click(function() {
-//   clearInterval(autoSlide);
-//   currentIndex -= 1;
-//   if (currentIndex < 0) {
-//     currentIndex = itemAmt - 1;
-//   }
-//   cycleItems();
-// });
+//         $(".active").fadeOut(300);
+
+//         $(".slider_" + index).fadeIn(300);        
+//         $("li .slide__image").removeClass("active");
+//         $(".slider_" + index).addClass("active");
+//     });
+// })

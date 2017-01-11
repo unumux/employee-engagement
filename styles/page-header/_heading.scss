@@ -5,6 +5,33 @@
 
 &__heading {
     @include base;
+
+    ol{
+        list-style: none;
+        width:100%;
+        position: absolute;
+        top: 7%;
+        right: 35%;
+        width: 13rem;
+        
+        
+        @media all and (min-width: 786px) {
+            top: 50rem;
+            right: 8%;
+        }
+
+    }
+
+    ol li{
+        background: $ocean;
+        border-radius: 50%;
+        display: inline-block;
+        width:1.5rem;
+        height:1.5rem;
+        cursor: pointer;
+        margin: 0.5rem;
+        
+    }
 }
 
 .yellow {
