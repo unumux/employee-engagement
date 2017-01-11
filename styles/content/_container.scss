@@ -1,20 +1,12 @@
 @mixin base() {
 
     @media all and (min-width: 768px) {
-        flex: 1 1 0;
-        max-width: 50%;
+        display: flex;
+
     }
+
 }
 
 &__container {
     @include base;
-
-    h1 {
-        font-size: 3.4rem;
-
-        @media all and (min-width: 768px) {
-            font-size: 3rem;
-        }
-    }
-    
 }

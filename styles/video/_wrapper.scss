@@ -1,0 +1,10 @@
+@mixin base() {
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+&__wrapper {
+    @include base;
+}
