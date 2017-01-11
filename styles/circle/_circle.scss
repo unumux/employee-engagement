@@ -3,7 +3,8 @@
     background-color: $ocean;
     border-radius: 50%;
     color: #fff;
-    display: flex; 
+    display: flex;
+    flex-shrink: 0;
     height: 175px;
     justify-content: center;
     text-align: center; 
