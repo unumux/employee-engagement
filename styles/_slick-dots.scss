@@ -1,0 +1,30 @@
+.slick-dots
+{
+    top: 1rem;
+
+    @media (min-width: 768px) {
+        top: auto;
+        bottom: 1rem;
+        right: 2rem;
+        width: auto;
+    }
+
+    li {
+        button::before {
+            color: #fff;
+            font-size: 1.2rem;
+            opacity: 0.9;
+
+            @media (min-width: 768px) {
+                font-size: 1.4rem;
+            }
+        }
+
+        &.slick-active {
+            button::before {
+                color: $yellow;
+                opacity: 1;
+            }
+        }
+    }
+}

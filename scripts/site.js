@@ -1,6 +1,5 @@
 // Main JS should go here!
-// Include scripts using Browserify by doing:
-var $ = require("jquery");
+
 
 // FAQs
 $(".faqs__faq").attr("data-collapsed", "true").find(".faqs__answer").hide();
@@ -13,6 +12,9 @@ $(".faqs").on("click", "[data-collapsed='false'] .faqs__question", function () {
     $(this).parent().attr("data-collapsed", "true").find(".faqs__answer").slideUp();
 });
 
+$('.carousel').slick({
+    dots: true
+});
 
 // Carousel
 var currentIndex = 0,
