@@ -3,6 +3,10 @@
     width: 60%;
     height: auto;
     padding: 2rem;
+
+    @media all and (min-width: 768px) {
+        padding: 3rem;
+    }
 }
 
 &__content {

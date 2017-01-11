@@ -15,23 +15,23 @@ $(".faqs").on("click", "[data-collapsed='false'] .faqs__question", function () {
 
 
 // Carousel
-var currentIndex = 0,
-  items = $('.page-header__container div'),
-  itemAmt = items.length;
+// var currentIndex = 0,
+//   items = $('.page-header__container div'),
+//   itemAmt = items.length;
 
-function cycleItems() {
-  var item = $('.page-header__container div').eq(currentIndex);
-  items.hide();
-  item.css('display','inline-block');
-}
+// function cycleItems() {
+//   var item = $('.page-header__container div').eq(currentIndex);
+//   items.hide();
+//   item.css('display','inline-block');
+// }
 
-var autoSlide = setInterval(function() {
-  currentIndex += 1;
-  if (currentIndex > itemAmt - 1) {
-    currentIndex = 0;
-  }
-  cycleItems();
-}, 10000);
+// var autoSlide = setInterval(function() {
+//   currentIndex += 1;
+//   if (currentIndex > itemAmt - 1) {
+//     currentIndex = 0;
+//   }
+//   cycleItems();
+// }, 10000);
 
 // $('.next').click(function() {
 //   clearInterval(autoSlide);
