@@ -1,0 +1,7 @@
+@mixin base() {
+    text-align: center;
+}
+
+&__branding {
+    @include base;
+}
