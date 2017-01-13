@@ -18,5 +18,6 @@ $('.carousel').slick({
     dots: true,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 4000
+    autoplaySpeed: 4000,
+    swipeToSlide: true
 });
