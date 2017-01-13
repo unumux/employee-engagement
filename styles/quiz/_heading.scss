@@ -1,18 +1,21 @@
 @mixin base() {
     background-color: $ocean;
-    padding: 1rem 2rem 1rem 3rem;
-    transform: translateY(-2rem);
-    width: 85%;
     border-bottom: 5px solid $yellow;
     color: #fff;
     font-size: 3.5rem;
     line-height: 3.5rem;
-    padding-left: 5rem;
+    padding: 1rem 2rem 1rem 3rem;
+    padding-left: 2rem;
+    transform: translateY(-2rem);
+    width: 85%;
+    
 
     @media all and (min-width: 768px) {
         margin-left: -5rem;
+        padding-left: 5rem;
         transform: translateY(-7rem);
         width: 62%;
+
     }
 }
 

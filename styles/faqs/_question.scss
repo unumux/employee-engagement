@@ -11,14 +11,14 @@
 &__question {
     @include base;
 
-    &:before {
+    &::before {
         background-color: $yellow;
         border-radius: 50%;
         color: #fff;
         content: '-';
-        display: block;
+        display: inline-block;
         left: -3rem;
-        line-height: 2rem;
+        line-height: 20px;
         position: absolute;
         text-align: center;
         top: 0.5rem;
