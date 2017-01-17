@@ -8,6 +8,10 @@
     position: absolute;
     width: 100%;
     z-index: 1;
+
+    @media all and (min-width: 768px) {
+        padding: 4rem;
+    }
 }
 
 &__heading {

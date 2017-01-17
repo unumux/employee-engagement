@@ -1,8 +1,8 @@
 @mixin base() {
     width: 100vw;
 
-    @media all and (min-width: 786px) {
-        transform: translateY(calc(0px - ((100% - 75vh)/ 2)));
+    @media all and (min-width: 768px) {
+        transform: translateY(calc(0px - ((100% - 25vh)/ 2)));
     }
 }
 
