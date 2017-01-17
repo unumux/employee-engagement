@@ -1,6 +1,9 @@
 @mixin base() {
     width: 15rem;
     padding: 2rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
 
     @media all and (min-width: 768px) {
         width: 18rem; 
