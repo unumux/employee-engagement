@@ -1,0 +1,9 @@
+@mixin base() {
+    text-decoration: none;
+    color: inherit;
+}
+
+&__answer-link {
+    @include base;
+
+}
