@@ -1,5 +1,6 @@
 @mixin base() {
     width: 100vw;
+    // background: rgba(0, 0, 0, .6);
 
     @media all and (min-width: 768px) {
         transform: translateY(calc(0px - ((100% - 50vh)/ 2)));
