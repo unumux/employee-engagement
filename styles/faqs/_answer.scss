@@ -1,6 +1,8 @@
 @mixin base() {
     word-wrap: break-word;
     margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
 }
 
 &__answer {

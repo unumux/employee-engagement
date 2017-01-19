@@ -1,6 +1,12 @@
 @mixin base() {
     max-height: 50vh;
+    height: 37vh;
     position: relative;
+    background-color: $ocean;
+
+    @media all and (min-width: 768px) {
+        height: 41.50vh;
+    }
 }
 
 &__slide {

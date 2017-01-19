@@ -1,7 +1,7 @@
 @mixin base() {
     bottom: 0;
     color: #fff;
-    font-size: 8rem;
+    font-size: 7rem;
     line-height: 1;
     margin: 0;
     padding: 2rem;
@@ -16,6 +16,27 @@
 
 &__heading {
     @include base;
+
+    &--small {
+        bottom: 0;
+        font-size: 5rem;
+        color: #fff;
+        line-height: 1;
+        margin: 0;
+        padding: 2rem;
+        position: absolute;
+        max-width: 85%;
+        z-index: 1;
+
+        @media all and (min-width: 768px) {
+            font-size: 7rem;
+            max-width: 85%;
+        }
+
+        @media all and (min-width: 1200px) {
+            max-width: 65%;
+        }
+    }
 
     .yellow {
         display: block;

@@ -1,12 +1,13 @@
 @mixin base() {
-    width: 15rem;
+    width: 11rem;
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding: 1rem;
 
     @media all and (min-width: 768px) {
-        width: 18rem; 
+        width: 16rem; 
     }
 }
 
