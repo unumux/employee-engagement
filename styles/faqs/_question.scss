@@ -17,12 +17,12 @@
         color: #fff;
         content: '-';
         display: inline-block;
-        left: -3rem;
+        left: -4rem;
         line-height: 24px;
         position: absolute;
         text-align: center;
-        top: 0.5rem;
-        width: 2rem;
+        top: 0.15rem;
+        width: 2.5rem;
 
         .faqs__faq[data-collapsed="true"] & {
             background-color: $ocean;
