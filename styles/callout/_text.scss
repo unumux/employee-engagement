@@ -1,0 +1,10 @@
+&__text {
+    text-decoration: none;
+    color: #3A80AA;
+    font-weight: 600;
+    font-size: 2rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 3rem;
+    }
+}

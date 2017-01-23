@@ -7,6 +7,12 @@
 }
 
 @mixin containContent() {
+
+    @media (min-width: 768px) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
     @media(min-width: 1440px) {
         padding-left: calc(5rem + (100% - 1340px) / 2);
         padding-right: calc(5rem + (100% - 1340px) / 2);
