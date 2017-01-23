@@ -17,7 +17,7 @@ $(document).ready(function() {
     $('.carousel').slick({
         dots: true,
         arrows: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         swipeToSlide: true
     });
