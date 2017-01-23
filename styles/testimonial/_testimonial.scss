@@ -1,18 +1,11 @@
 @mixin base() {
+    @include containElement();
+
     background-color: #3A80AA;
     border-bottom: 20px solid $yellow;
     color: #fff;
-    // margin-bottom: 4rem;
     text-align: center;
 
-    @media all and (min-width: 768px) {
-        margin: 7rem 7rem 0rem 5rem;
-    }
-
-    @media all and (min-width: 1200px) {
-        margin: 0 auto;
-        max-width: 60%;
-    }
 }
 
 .testimonial {

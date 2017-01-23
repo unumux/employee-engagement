@@ -1,11 +1,13 @@
 .slick-dots
 {
+    @include containContent();
+
     top: 1rem;
 
     @media (min-width: 768px) {
         top: auto;
         bottom: 4rem;
-        right: 2rem;
+        right: 0;
         width: auto;
     }
 
