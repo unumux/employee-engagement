@@ -1,4 +1,6 @@
 @mixin base() {
+    @include containElement();
+
     background-color: #005488;
     border-bottom: 20px solid #00A1CF;
     color: #fff;
@@ -6,13 +8,8 @@
     text-align: center;
 
     @media all and (min-width: 768px) {
-        margin: 7rem 7rem 7rem 5rem;
-    }
-
-    @media all and (min-width: 1200px) {
-        margin: 0 auto;
-        margin-bottom: 5rem;
-        max-width: 60%;
+        margin-bottom: 7rem;
+        margin-top: 7rem;
     }
 }
 

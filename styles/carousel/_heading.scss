@@ -1,4 +1,6 @@
 @mixin base() {
+    @include containContent();
+
     bottom: 0;
     color: #fff;
     font-size: 7rem;
@@ -9,9 +11,10 @@
     width: 100%;
     z-index: 1;
 
-    @media all and (min-width: 768px) {
-        padding: 4rem;
+    @media (min-width: 768px) {
+        padding: 5rem;
     }
+
 }
 
 &__heading {

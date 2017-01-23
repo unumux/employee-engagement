@@ -1,11 +1,12 @@
 @mixin base() {
-    padding: 2rem;
+    @include containElement();
+
     margin-bottom: 4rem;
     margin-top: 4rem;
+    padding: 2rem;
 
-    @media all and (min-width: 768px) {
-        margin-left: 5rem;
-        max-width: 80vw;
+    @media(min-width: 768px) {
+        padding: 0 5rem;
     }
 }
 
