@@ -15,6 +15,7 @@
 
 &__heading {
     @include base;
+    font-size: 4rem;
 
     &--small {
         bottom: 0;
