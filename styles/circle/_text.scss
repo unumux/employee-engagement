@@ -16,12 +16,12 @@
     }
 
     &--medium {
-        border-bottom: 7px solid #fff;
+        border-bottom: 7px solid $yellow;
         font-size: 6rem;
         font-weight: 600;
 
         @media all and (min-width: 768px) {
-            border-bottom: 5px solid #fff;
+            border-bottom: 5px solid $yellow;
             font-size: 5rem;
         }
     }

@@ -1,14 +1,10 @@
 &__text {
-    height: 35px;
-    // margin-top: 42%;
-    margin-left: 11%;
-    // background-color: #fff;
-    // position: absolute;
-    // width: 50rem;
-    text-align: center;
-    // padding-top: 5px;
     text-decoration: none;
-    color: #005488;
+    color: #3A80AA;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 2rem;
+
+    @media all and (min-width: 768px) {
+        font-size: 3rem;
+    }
 }

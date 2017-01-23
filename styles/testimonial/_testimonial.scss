@@ -1,8 +1,8 @@
 @mixin base() {
-    background-color: #005488;
-    border-bottom: 20px solid #00A1CF;
+    background-color: #3A80AA;
+    border-bottom: 20px solid $yellow;
     color: #fff;
-    margin-bottom: 4rem;
+    // margin-bottom: 4rem;
     text-align: center;
 
     @media all and (min-width: 768px) {
