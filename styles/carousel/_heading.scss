@@ -11,6 +11,11 @@
     width: 100%;
     z-index: 1;
 
+    @media all and (min-width: 768px) {
+        font-size: 7rem;
+            // max-width: 85%;
+    }
+
 }
 
 &__heading {
@@ -30,11 +35,11 @@
 
         @media all and (min-width: 768px) {
             font-size: 7rem;
-            max-width: 85%;
+            // max-width: 85%;
         }
 
         @media all and (min-width: 1200px) {
-            max-width: 65%;
+            // max-width: 65%;
         }
     }
 
