@@ -2,7 +2,10 @@
     max-height: 50vh;
     height: 30.45vh;
     position: relative;
-    background-color: #005488;
+    background-color: #3a80aa;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
 
     @media all and (min-width: 768px) {
         height: 41.50vh;
@@ -11,5 +14,23 @@
 
 &__slide {
     @include base;
+
+    &--diy {
+        @include base;
+        
+        background-image: url("../images/because-you-diy_4.jpg");
+    }
+
+    &--boat {
+        @include base;
+        background-image: url("../images/because-you-boat_4.jpg");
+
+    }
+
+    &--ski {
+        @include base;
+        background-image: url("../images/because-you-ski_4.jpg");
+
+    }
 
 }
