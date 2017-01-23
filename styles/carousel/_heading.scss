@@ -23,6 +23,7 @@
     font-size: 4rem;
 
     &--small {
+        @include containContent();
         bottom: 0;
         font-size: 3.5rem;
         color: #fff;
