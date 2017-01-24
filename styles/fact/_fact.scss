@@ -2,11 +2,12 @@
     display: flex;
     margin-bottom: 5rem;
     align-items: center;
+    flex-direction: column;
 
     @media all and (min-width: 768px) {
         justify-content: center;
         margin-bottom: 2rem;
-        flex-direction: column;
+        // flex-direction: column;
     }
 }
 

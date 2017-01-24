@@ -19,7 +19,13 @@
 
         @media all and (min-width: 768px) {
             font-size: 4rem;
-            line-height: 42px;
+            line-height: 5rem;
+        }
+    }
+
+    p {
+        @media all and (min-width: 768px) {
+            line-height: 2.5rem;
         }
     }
     
